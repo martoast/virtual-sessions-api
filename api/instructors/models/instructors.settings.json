@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instructors",
+  "info": {
+    "name": "Instructors",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "form": {
+      "type": "json"
+    },
+    "username": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
